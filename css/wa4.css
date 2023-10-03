@@ -99,7 +99,7 @@ html {
       border-radius: 0.5em 0.5em 0 0;
   }
   
-.kccard header h2 {
+.kccard header h2 { 
       font-size: 2em;
       line-height: 1.5;
       margin: 1em;
