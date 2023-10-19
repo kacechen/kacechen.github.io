@@ -1,0 +1,64 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: plum;
+    background-image: linear-gradient(to bottom,rgba(0,0,0,0.1), rgba(0,0,0,0));
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+nav{
+    height: 50vh;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height:20px;
+    background-color: blueviolet;
+    color: greenyellow;
+    transition-property: color;
+    transition-duration: 3s;
+
+}
+
+nav:hover {
+    background-color: fuchsia;
+}
+nav a{
+    width:10vw;
+    text-align: center;
+    text-decoration: none;
+    color:lavender;
+}
+
+
+img{
+    width:30vw;
+    height: 50vh;
+    border: dotted 5px;
+}
+
+#red-ball{
+    background-image: url('plum.png');
+    background-color: darkorchid; 
+
+    border: solid 1px;
+    width: 30px;
+    height:30px;
+    border-radius: 50%;
+    position: absolute;
+    left:5vw;
+    top:0;
+    animation-name: bouncingPlum;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes bouncingPlum{
+    from {
+        margin-left: 100%;
+
+    }
+    to {
+        margin-left: 0%;
+    }
+}
