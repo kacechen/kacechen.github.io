@@ -1,5 +1,6 @@
+/* For desktop: */
 @media only screen and (min-width: 1500px) {
-    /* For desktop: */
+
     .col-1 {width: 8.33%;}
     .col-2 {width: 16.66%;}
     .col-3 {width: 25%;}
@@ -39,11 +40,24 @@
         padding: 10px;
     }
 
+    h2 {
+        color: black
+      }
+    
+    h3 {
+        font-style: italic;
+        font-size: x-large;
+      }
+    h5 {
+        font-style: italic;
+      }
+    
+
     body{
         display: flex;
         flex-direction: column;
         align-items: center;
-        background-color: #a5cf61;
+        background-color: darkgreen;
         background-image: linear-gradient(#a5cf61, darkgreen);
         font-family: Arial, Helvetica, sans-serif;
         justify-content: center;
@@ -74,7 +88,7 @@
         width:10vw;
         text-align: center;
         text-decoration: none;
-        color:lavender;
+        color: white;
     }
 
     .bodyText {
@@ -96,7 +110,7 @@
     .footer {
         position: relative;
         bottom: 0;
-        padding: 10px;
+        padding-top: 100px;
         color: white;
     }
 
@@ -107,13 +121,14 @@
   
   .nav{
     display: block;
-    background-color: lightseagreen;
+    background-color: gray;
   }
 
   body {
     margin: 10px;
     padding: 0;
     background-image: linear-gradient(#a5cf61, darkgreen);
+    background-color: darkgreen;
   }
 
   header {
@@ -135,9 +150,16 @@
     justify-content: right;
   }
 
+  h2 {
+    color: black
+  }
+
   h3 {
     font-style: italic;
     font-size: x-large;
+  }
+  h5 {
+    font-style: italic;
   }
 
 
@@ -155,6 +177,7 @@
     padding: 10px;
     justify-content: space-around;
     border: 5px black solid;
+
   }
   .bodyText {
     display: inline-block;
@@ -175,6 +198,10 @@
     text-align: left;
     justify-content: center;
     padding-left: 40px;
+  }
+
+  .footer {
+    padding-top: 150px;
   }
 
 
