@@ -1,0 +1,23 @@
+body {
+    text-align: center;
+    border: 5px solid black;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#yesBtn {
+    color: orangered;
+    background-color: aquamarine;
+}
+
+#noBtn {
+    color: darkgreen;
+    background-color: pink;
+
+}
+
+#successTxt {
+    color: brown;
+    
+}
+
